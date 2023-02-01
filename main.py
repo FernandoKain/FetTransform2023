@@ -7,7 +7,7 @@ import time
 # Solicita entrada do usuário em relação ao número de atividades entregues.
 # var = int(input("Insira o número de alunos que entregaram as atividades: "))
 
-pyautogui.PAUSE = 0.1
+pyautogui.PAUSE = 0.2
 
 
 # Funções para otimizar o código
@@ -634,7 +634,7 @@ for i in range(17):
 for i in range(17):
     down()
 
-pyautogui.click(x=200, y=250)
+pyautogui.click(x=150, y=400)
 alttab()
 
 # Seleciona a turma - Excel
